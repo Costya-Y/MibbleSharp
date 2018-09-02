@@ -19,6 +19,8 @@
 //    C# conversion Copyright (c) 2016 Jeremy Gibbons. All rights reserved
 // </copyright>
 
+using MibbleSharp.Asn1;
+
 namespace MibbleSharp
 {
     using System;
@@ -26,7 +28,6 @@ namespace MibbleSharp
     using System.Collections.Generic;
     using System.Linq;
     using System.Numerics;
-    using MibbleSharp.Asn1;
     using MibbleSharp.Snmp;
     using MibbleSharp.Type;
     using MibbleSharp.Util;

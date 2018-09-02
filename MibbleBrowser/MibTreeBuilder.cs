@@ -7,6 +7,7 @@ namespace MibbleBrowser
     using System.Windows.Forms;
     using MibbleSharp;
     using MibbleSharp.Value;
+    using System.Drawing;
 
     /// <summary>
     /// 
@@ -61,7 +62,7 @@ namespace MibbleBrowser
 
             if(File.Exists(filename))
             {
-                using (StreamReader sr = new StreamReader(filename))
+                using (var sr = new StreamReader(filename))
                 {
                     mib = loader.Load(sr);
                 }
@@ -83,12 +84,15 @@ namespace MibbleBrowser
 
         private void Initialize()
         {
-            if(treeView.Nodes.Count == 0 || treeView.Nodes[0].Equals(rootNode) == false)
-            {
-                treeView.Nodes.Clear();
-                nodes.Clear();
-                treeView.Nodes.Add(rootNode);
-            }
+            if (treeView.Nodes.Count != 0 && treeView.Nodes[0].Equals(rootNode) != false) return;
+            treeView.Nodes.Clear();
+            nodes.Clear();
+            treeView.ImageList = new ImageList();
+            treeView.ImageList.Images.Add(Properties.Resources.Folder);
+            treeView.ImageList.Images.Add(Properties.Resources.ROFile);
+            treeView.ImageList.Images.Add(Properties.Resources.RWFile);
+            treeView.ImageList.Images.Add(Properties.Resources.Table);
+            treeView.Nodes.Add(rootNode);
         }
 
         /// <summary>
@@ -97,15 +101,12 @@ namespace MibbleBrowser
         /// <param name="sym"></param>
         private void AddSymbol(MibSymbol sym)
         {
-            MibValueSymbol valSym = sym as MibValueSymbol;
-            if(valSym == null)
+            if(!(sym is MibValueSymbol valSym))
             {
                 return;
             }
 
-            ObjectIdentifierValue oiv = valSym.Value as ObjectIdentifierValue;
-
-            if(oiv == null)
+            if(!(valSym.Value is ObjectIdentifierValue oiv))
             {
                 return;
             }
@@ -134,7 +135,7 @@ namespace MibbleBrowser
             // Check if node already added
             foreach (var node in parent.Nodes)
             {
-                MibNode mibNode = node as MibNode;
+                var mibNode = node as MibNode;
                 if (mibNode.Value.Equals(oiv))
                 {
                     return mibNode;
@@ -142,8 +143,19 @@ namespace MibbleBrowser
             }
 
             // Create new node
-            string name = oiv.Name + " (" + oiv.Value + ")";
-            MibNode newNode = new MibNode(name, oiv);
+            var name = oiv.Name + " (" + oiv.Value + ")";
+            var newNode = new MibNode(name, oiv);
+            if (oiv.Symbol.IsScalar || oiv.Symbol.IsTableColumn) {
+                newNode.ImageIndex = 1;
+                if (oiv.Symbol.ToString().ToLower().Contains("read-write")) {
+                    newNode.ImageIndex = 2;
+                }
+            }
+            if (oiv.Symbol.IsTable)
+            {
+                newNode.ImageIndex = 3;
+            }
+            newNode.SelectedImageIndex = newNode.ImageIndex;
             parent.Nodes.Add(newNode);
             nodes.Add(oiv.Symbol, newNode);
             return newNode;
@@ -151,7 +163,7 @@ namespace MibbleBrowser
 
         private bool HasParent(ObjectIdentifierValue oiv)
         {
-            ObjectIdentifierValue parent = oiv.Parent;
+            var parent = oiv.Parent;
 
             return oiv.Symbol != null
                 && oiv.Symbol.Mib != null

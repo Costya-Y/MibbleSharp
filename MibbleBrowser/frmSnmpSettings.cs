@@ -18,8 +18,12 @@
 //    Copyright (c) 2016 Jeremy Gibbons. All rights reserved
 // </copyright>
 
+using System.Linq;
+using System.Net;
+
 namespace MibbleBrowser
 {
+    using SnmpLextmWrapper.Domain;
     using System.Windows.Forms;
 
     /// <summary>
@@ -27,12 +31,77 @@ namespace MibbleBrowser
     /// </summary>
     public partial class FrmSnmpSettings : Form
     {
+        internal ISnmpParameters snmpParameters;
+
         /// <summary>
         /// Initializes a new instance of the <see cref="FrmSnmpSettings"/> class
         /// </summary>
         public FrmSnmpSettings()
         {
             this.InitializeComponent();
+            this.comboBox1.SelectedIndex = 1;
+        }
+
+        public FrmSnmpSettings(ISnmpParameters snmpParameters)
+        {
+            this.InitializeComponent();
+            textBox1.Text = snmpParameters.IP.ToString();
+            if (snmpParameters.GetType() == typeof(SnmpV3Parameters))
+            {
+                comboBox1.SelectedIndex = 2;
+            }
+            else
+            {
+                comboBox1.SelectedIndex = 1;
+                textBox2.Text = ((SnmpV2Parameters)snmpParameters).SnmpCommunity.ToString();
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, System.EventArgs e)
+        {
+            if (comboBox1.Text.Contains("3"))
+            {
+                //snmpParameters = new SnmpV3Parameters();
+
+            }
+        }
+
+        private void button1_Click(object sender, System.EventArgs e)
+        {
+            int port = 0;
+            IPAddress ipAddress;
+            var ip = textBox1.Text;
+            if (ip.Contains(":"))
+            {
+                var endpoint = ip.Split(':');
+                ip = endpoint[0];
+                port = int.Parse(endpoint.LastOrDefault(x=>x != ""));
+            }
+            if (!IPAddress.TryParse(ip, out ipAddress))
+            {
+                ipAddress = Dns.GetHostEntry(ip).AddressList.First(addr =>
+                        addr.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork);
+            }
+            if (comboBox1.Text.Contains("3"))
+            {
+                //snmpParameters = new SnmpV3Parameters();
+
+            }
+            else
+            {
+
+                snmpParameters = new SnmpV2Parameters(ipAddress, port, textBox2.Text ?? textBox3.Text);
+                if (comboBox1.Text.Contains("1"))
+                {
+                    snmpParameters.SetVersion("1");
+                }
+            }
+            this.Close();
+        }
+
+        private void button2_Click(object sender, System.EventArgs e)
+        {
+            this.Close();
         }
     }
 }

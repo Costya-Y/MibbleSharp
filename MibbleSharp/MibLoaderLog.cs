@@ -19,13 +19,14 @@
 //    C# conversion Copyright (c) 2016 Jeremy Gibbons. All rights reserved
 // </copyright>
 
+using PerCederberg.Grammatica.Runtime;
+
 namespace MibbleSharp
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Text;
-    using PerCederberg.Grammatica.Runtime;
 
     /// <summary>
     ///  A MIB loader log. This class contains error and warning messages

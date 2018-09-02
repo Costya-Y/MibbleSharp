@@ -154,7 +154,7 @@ namespace MibbleSharp
         {
             get
             {
-                if (this.number > int.MaxValue)
+                if (this.number > (BigInteger)int.MaxValue)
                 {
                     return int.MaxValue;
                 }

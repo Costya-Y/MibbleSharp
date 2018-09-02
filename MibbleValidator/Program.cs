@@ -19,6 +19,8 @@
 //    C# conversion Copyright (c) 2016 Jeremy Gibbons. All rights reserved
 // </copyright>
 
+using MibbleSharp;
+
 namespace MibbleValidator
 {
     using System;
@@ -26,7 +28,6 @@ namespace MibbleValidator
     using System.Collections.Generic;
     using System.IO;
     using System.Text;
-    using MibbleSharp;
 
     /// <summary>
     /// A test program for validating MIBs

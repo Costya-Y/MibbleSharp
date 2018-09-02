@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3c2eb85-e5bc-4bef-a890-6a30a6d8b740" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="457973293">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.72" value="1" />
+          <entry key="project.open.time.79" value="1" />
+          <entry key="project.opened" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="StyleCop" value="1" />
+          <entry key="cs" value="52" />
+          <entry key="glade" value="1" />
+          <entry key="resx" value="4" />
+          <entry key="settings" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="52" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Resources" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="2433" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="2433" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MibbleBrowser/FrmMain.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="218" column="45" lean-forward="true" selection-start-line="218" selection-start-column="45" selection-end-line="218" selection-end-column="45" />
+              <folding>
+                <marker date="1535403487704" expanded="true" signature="0:968" ph="/* &lt;copyright file=&quot;frmMain.cs&quot; company=&quot;None&quot;&gt; ... */" />
+                <marker date="1535403487704" expanded="true" signature="976:1169" ph="..." />
+                <marker date="1535403487704" expanded="true" signature="1194:10357" ph="{...}" />
+                <marker date="1535403487704" expanded="false" signature="1207:1323" ph="..." />
+                <marker date="1535403487704" expanded="true" signature="1329:1448" ph="/// Partial class representing the main form of the &lt;c&gt;MibBrowser&lt;/c&gt; application. ... " />
+                <marker date="1535403487704" expanded="true" signature="1488:10355" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="4782:4819" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="4894:5369" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="4970:5100" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="5444:5482" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="5557:5599" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="5674:5713" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="5788:5833" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="5908:9042" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="5990:6120" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="6635:6843" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="7084:7165" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="7215:7935" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="7305:7434" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="7712:7857" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="8236:8945" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="8397:8773" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="8582:8697" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="9106:9941" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="9210:9330" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="9407:9459" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="9542:9656" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="9673:9790" ph="{...}" />
+                <marker date="1535403487704" expanded="true" signature="10027:10349" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03056.00/Source/ndp/fx/src/winforms/Managed/System/WinForms/TabPage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="238" column="15" selection-start-line="238" selection-start-column="15" selection-end-line="238" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MibbleBrowser/MibNodeFormHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="33" column="77" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="77" />
+              <folding>
+                <marker date="1534754817746" expanded="false" signature="6:153" ph="..." />
+                <marker date="1534754817746" expanded="true" signature="178:1498" ph="{...}" />
+                <marker date="1534754817746" expanded="true" signature="218:1496" ph="{...}" />
+                <marker date="1534754817746" expanded="true" signature="432:1490" ph="{...}" />
+                <marker date="1534754817746" expanded="true" signature="473:525" ph="{...}" />
+                <marker date="1534754817746" expanded="true" signature="561:634" ph="{...}" />
+                <marker date="1534754817746" expanded="true" signature="677:1205" ph="{...}" />
+                <marker date="1534754817746" expanded="true" signature="857:1031" ph="{...}" />
+                <marker date="1534754817746" expanded="true" signature="1084:1191" ph="{...}" />
+                <marker date="1534754817746" expanded="true" signature="1222:1480" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClassLibrary1/Domain/SnmpTable.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+              <folding>
+                <marker date="1535328055293" expanded="false" signature="6:66" ph="..." />
+                <marker date="1535328055293" expanded="true" signature="101:1093" ph="{...}" />
+                <marker date="1535328055293" expanded="true" signature="130:1090" ph="{...}" />
+                <marker date="1535328055293" expanded="true" signature="360:1084" ph="{...}" />
+                <marker date="1535328055293" expanded="true" signature="417:1074" ph="{...}" />
+                <marker date="1535328055293" expanded="true" signature="479:1060" ph="{...}" />
+                <marker date="1535328055293" expanded="true" signature="626:1042" ph="{...}" />
+                <marker date="1535328055293" expanded="true" signature="780:917" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClassLibrary1/Orchestration/SnmpGet.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <folding>
+                <marker date="1535323125590" expanded="false" signature="6:126" ph="..." />
+                <marker date="1535323125590" expanded="true" signature="168:1235" ph="{...}" />
+                <marker date="1535323125590" expanded="true" signature="217:1233" ph="{...}" />
+                <marker date="1535323125590" expanded="true" signature="312:1227" ph="{...}" />
+                <marker date="1535323125590" expanded="true" signature="437:539" ph="{...}" />
+                <marker date="1535323125590" expanded="true" signature="876:1152" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClassLibrary1/Helpers/SnmpHelper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <marker date="1535315828665" expanded="false" signature="6:123" ph="..." />
+                <marker date="1535315828665" expanded="true" signature="151:676" ph="{...}" />
+                <marker date="1535315828665" expanded="true" signature="188:674" ph="{...}" />
+                <marker date="1535315828665" expanded="true" signature="291:535" ph="{...}" />
+                <marker date="1535315828665" expanded="true" signature="378:514" ph="{...}" />
+                <marker date="1535315828665" expanded="true" signature="622:668" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClassLibrary1/Orchestration/SnmpOrchestrator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+              <folding>
+                <marker date="1535318099932" expanded="false" signature="6:78" ph="..." />
+                <marker date="1535318099932" expanded="true" signature="120:1908" ph="{...}" />
+                <marker date="1535318099932" expanded="true" signature="156:1906" ph="{...}" />
+                <marker date="1535318099932" expanded="true" signature="236:649" ph="{...}" />
+                <marker date="1535318099932" expanded="true" signature="709:898" ph="{...}" />
+                <marker date="1535318099932" expanded="true" signature="962:1079" ph="{...}" />
+                <marker date="1535318099932" expanded="true" signature="1147:1268" ph="{...}" />
+                <marker date="1535318099932" expanded="true" signature="1374:1519" ph="{...}" />
+                <marker date="1535318099932" expanded="true" signature="1590:1708" ph="{...}" />
+                <marker date="1535318099932" expanded="true" signature="1782:1900" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClassLibrary1/Orchestration/SnmpWalk.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+              <folding>
+                <marker date="1534789802497" expanded="false" signature="6:126" ph="..." />
+                <marker date="1534789802497" expanded="true" signature="168:1599" ph="{...}" />
+                <marker date="1534789802497" expanded="true" signature="216:1597" ph="{...}" />
+                <marker date="1534789802497" expanded="true" signature="311:893" ph="{...}" />
+                <marker date="1534789802497" expanded="true" signature="436:538" ph="{...}" />
+                <marker date="1534789802497" expanded="true" signature="1003:1591" ph="{...}" />
+                <marker date="1534789802497" expanded="true" signature="1128:1230" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MibbleSharp/Value/ObjectIdentifierValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03056.00/Source/ndp/fx/src/winforms/Managed/System/WinForms/TabPage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03056.00/Source/ndp/fx/src/winforms/Managed/System/WinForms/DataGridViewColumnCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03056.00/Source/ndp/fx/src/winforms/Managed/System/WinForms/DataGridViewColumn.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Grammatica/obj/Debug/netcoreapp2.1/Grammatica.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03056.00/Source/ndp/fx/src/winforms/Managed/System/WinForms/DataGridViewRowCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleSharp/Asn1/Asn1Analyzer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleSharp/Asn1/Asn1Parser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleBrowser/MibNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleBrowser/MibTreeBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A4DD7832-80F0-4D7B-947E-5724C1E7AD56/c0/626f0676/TreeNode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClassLibrary1/Orchestration/SnmpOrchestrator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleBrowser/MibNodeFormHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleSharp/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClassLibrary1/Orchestration/SnmpWalk.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A4DD7832-80F0-4D7B-947E-5724C1E7AD56/43/f60725c1/TreeView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleSharp/MibLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClassLibrary1/Orchestration/SnmpGet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleSharp/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClassLibrary1/Helpers/SnmpHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleBrowser/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleBrowser/FrmSnmpSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03056.00/Source/ndp/fx/src/winforms/Managed/System/WinForms/TreeView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClassLibrary1/Domain/SnmpTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClassLibrary1/Domain/SnmpLine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleSharp/MibAnalyzer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleBrowser/FrmMain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleBrowser/FrmMain.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleValidator/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MibbleSharp/MibLoaderLog.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Grammatica/Class1.cs" />
+        <option value="$PROJECT_DIR$/MibbleBrowser/Class1.cs" />
+        <option value="$PROJECT_DIR$/MibbleValidator/Class1.cs" />
+        <option value="$PROJECT_DIR$/MibbleValidator/Program.cs" />
+        <option value="$PROJECT_DIR$/MibbleSharp/MibLoaderLog.cs" />
+        <option value="$PROJECT_DIR$/MibbleSharp/MibAnalyzer.cs" />
+        <option value="$PROJECT_DIR$/MibbleSharp/Asn1/Asn1Parser.cs" />
+        <option value="$PROJECT_DIR$/MibbleSharp/Asn1/Asn1Analyzer.cs" />
+        <option value="$PROJECT_DIR$/MibbleBrowser/frmMain.cs" />
+        <option value="$PROJECT_DIR$/MibbleBrowser/Program.cs" />
+        <option value="$PROJECT_DIR$/MibbleBrowser/MibNode.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary1/Helpers/SnmpHelper.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary1/Domain/SnmpLine.cs" />
+        <option value="$PROJECT_DIR$/MibbleBrowser/MibTreeBuilder.cs" />
+        <option value="$PROJECT_DIR$/MibbleBrowser/FrmSnmpSettings.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary1/Orchestration/SnmpOrchestrator.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary1/Orchestration/SnmpGet.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary1/Domain/SnmpTable.cs" />
+        <option value="$PROJECT_DIR$/MibbleBrowser/FrmMain.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MibbleSharpCore" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MibbleSharpCore" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MibbleBrowser" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MibbleSharpCore" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MibbleBrowser" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="FrmMain.cs" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MibbleSharpCore" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SnmpLextmWrapper" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MibbleSharpCore" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SnmpLextmWrapper" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MibbleSharpCore" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SnmpLextmWrapper" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name=".NETStandard 2" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MibbleSharpCore" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SnmpLextmWrapper" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MibbleSharpCore" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SnmpLextmWrapper" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Orchestration" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MibbleSharp/Asn1/Asn1Analyzer.cs" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/MibbleBrowser/bin/Debug/MibbleBrowser.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MibbleBrowser/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/MibbleBrowser/MibbleBrowser.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.2" />
+      <browser url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3c2eb85-e5bc-4bef-a890-6a30a6d8b740" name="Default Changelist" comment="" />
+      <created>1533549116393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533549116393</updated>
+      <workItem from="1533549117681" duration="132000" />
+      <workItem from="1533549256115" duration="674000" />
+      <workItem from="1533549940925" duration="574000" />
+      <workItem from="1533550564546" duration="476000" />
+      <workItem from="1533551043109" duration="29000" />
+      <workItem from="1533551074207" duration="1093000" />
+      <workItem from="1533552365025" duration="1383000" />
+      <workItem from="1533666298597" duration="67000" />
+      <workItem from="1534536683333" duration="174000" />
+      <workItem from="1534537379211" duration="99000" />
+      <workItem from="1534537584253" duration="23000" />
+      <workItem from="1534537631025" duration="500000" />
+      <workItem from="1534792111029" duration="5318000" />
+      <workItem from="1534841527854" duration="2750000" />
+      <workItem from="1535318958492" duration="16218000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29510000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29211086" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Stacktrace" sideWeight="0.49946696" weight="0.32925472" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48987207" weight="0.32925472" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47761193" weight="0.39933258" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.49946696" weight="0.32925472" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.52238804" side_tool="true" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.46801707" weight="0.32925472" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>type.AllSymbols[0].Value.Va</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type.AllSymbols[0].Value</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type.AllSymbols.Items[0].Value</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>columnToSnmpObjMap[column.Key].Keys</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>columnToSnmpObjMap[column.Key]</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>columnToSnmpObjMap[column.Key][&quot;0&quot;]</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>columnToSnmpObjMap[column.Key][0]</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>columnToSnmpObjMap[column.Key].Values[&quot;0&quot;]</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>columnToSnmpObjMap[column.Key].Values</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>columnToSnmpObjMap[column.Key].Values[0]</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Grammatica/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/MibbleBrowser/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/MibbleValidator/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/MibbleValidator/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleSharp/MibLoaderLog.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2970">
+          <caret line="198" column="52" selection-start-line="198" selection-start-column="52" selection-end-line="198" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleSharp/MibLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12120">
+          <caret line="814" column="46" selection-start-line="814" selection-start-column="46" selection-end-line="814" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleSharp/Properties/Resources.resx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleSharp/Properties/Settings.settings" />
+    <entry file="file://$PROJECT_DIR$/MibbleSharp/Properties/Settings.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/MibbleSharp/Asn1/Asn1Parser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleSharp/Asn1/bck/Asn1Analyzer.cs" />
+    <entry file="file://$PROJECT_DIR$/MibbleSharp/Asn1/Asn1Analyzer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleBrowser/Properties/AssemblyInfo.cs" />
+    <entry file="file://$PROJECT_DIR$/MibbleBrowser/Properties/Settings.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/MibbleBrowser/frmMain.resx" />
+    <entry file="file://$PROJECT_DIR$/MibbleBrowser/frmSnmpSettings.resx" />
+    <entry file="file://$PROJECT_DIR$/Grammatica/Properties/AssemblyInfo.cs" />
+    <entry file="file://$PROJECT_DIR$/MibbleSharp/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleBrowser/MainWindow.cs" />
+    <entry file="file://$PROJECT_DIR$/MibbleBrowser/MainWindow.glade" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A4DD7832-80F0-4D7B-947E-5724C1E7AD56/43/f60725c1/TreeView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A4DD7832-80F0-4D7B-947E-5724C1E7AD56/c0/626f0676/TreeNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleSharp/MibAnalyzer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleBrowser/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Grammatica/obj/Debug/netcoreapp2.1/Grammatica.AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassLibrary1/Domain/SnmpLine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <marker date="1534842368711" expanded="true" signature="96:488" ph="{...}" />
+            <marker date="1534842368711" expanded="true" signature="268:357" ph="{...}" />
+            <marker date="1534842368711" expanded="true" signature="403:482" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleBrowser/FrmMain.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6135">
+          <caret line="450" column="63" selection-start-line="450" selection-start-column="63" selection-end-line="450" selection-end-column="63" />
+          <folding>
+            <marker date="1535403487696" expanded="true" signature="45:22838" ph="{...}" />
+            <marker date="1535403487696" expanded="true" signature="73:22836" ph="{...}" />
+            <marker date="1535403487696" expanded="true" signature="88:164" ph="/// Required designer variable. ... " />
+            <marker date="1535403487696" expanded="true" signature="290:481" ph="/// Clean up any resources being used. ... " />
+            <marker date="1535403487696" expanded="true" signature="537:711" ph="{...}" />
+            <marker date="1535403487696" expanded="true" signature="598:664" ph="{...}" />
+            <marker date="1535403487696" expanded="false" signature="721:2631" ph="Windows Form Designer generated code" />
+            <marker date="1535403487696" expanded="true" signature="775:938" ph="/// Required method for Designer support - do not modify ... " />
+            <marker date="1535403487696" expanded="true" signature="981:2631" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Grammatica/Settings.StyleCop">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleBrowser/MibNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <marker date="1497125111628" expanded="true" signature="25:1916" ph="{...}" />
+            <marker date="1497125111628" expanded="false" signature="38:139" ph="..." />
+            <marker date="1497125111628" expanded="true" signature="146:187" ph="///  ... " />
+            <marker date="1497125111628" expanded="true" signature="216:1914" ph="{...}" />
+            <marker date="1497125111628" expanded="true" signature="232:455" ph="/// Initializes a new instance of the &lt;see cref=&quot;MibNode&quot;/&gt; class. ... " />
+            <marker date="1497125111628" expanded="true" signature="545:597" ph="{...}" />
+            <marker date="1497125111628" expanded="true" signature="607:656" ph="///  ... " />
+            <marker date="1497125111628" expanded="true" signature="699:736" ph="{...}" />
+            <marker date="1497125111628" expanded="true" signature="746:795" ph="///  ... " />
+            <marker date="1497125111628" expanded="true" signature="821:1042" ph="{...}" />
+            <marker date="1497125111628" expanded="true" signature="847:1032" ph="{...}" />
+            <marker date="1497125111628" expanded="true" signature="900:977" ph="{...}" />
+            <marker date="1497125111628" expanded="true" signature="1080:1294" ph="{...}" />
+            <marker date="1497125111628" expanded="true" signature="1106:1284" ph="{...}" />
+            <marker date="1497125111628" expanded="true" signature="1159:1228" ph="{...}" />
+            <marker date="1497125111628" expanded="true" signature="1337:1614" ph="{...}" />
+            <marker date="1497125111628" expanded="true" signature="1363:1604" ph="{...}" />
+            <marker date="1497125111628" expanded="true" signature="1466:1535" ph="{...}" />
+            <marker date="1497125111628" expanded="true" signature="1649:1908" ph="{...}" />
+            <marker date="1497125111628" expanded="true" signature="1675:1898" ph="{...}" />
+            <marker date="1497125111628" expanded="true" signature="1758:1846" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleBrowser/MibTreeBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <folding>
+            <marker date="1535320251062" expanded="true" signature="25:4832" ph="{...}" />
+            <marker date="1535320251062" expanded="false" signature="38:196" ph="..." />
+            <marker date="1535320251062" expanded="true" signature="202:243" ph="///  ... " />
+            <marker date="1535320251062" expanded="true" signature="268:4830" ph="{...}" />
+            <marker date="1535320251062" expanded="false" signature="283:367" ph="/// The treeview nodes will be added to ... " />
+            <marker date="1535320251062" expanded="false" signature="412:461" ph="///  ... " />
+            <marker date="1535320251062" expanded="false" signature="533:582" ph="///  ... " />
+            <marker date="1535320251062" expanded="true" signature="695:782" ph="/// The MibLoader to be used for this tree ... " />
+            <marker date="1535320251062" expanded="true" signature="896:954" ph="{...}" />
+            <marker date="1535320251062" expanded="false" signature="964:1057" ph="///  ... " />
+            <marker date="1535320251062" expanded="true" signature="1118:2030" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="1194:1316" ph="/* if(!File.Exists(filename)) ... */" />
+            <marker date="1535320251062" expanded="true" signature="1389:1531" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="1570:1737" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="1644:1723" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="1754:1827" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="1915:1980" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="2065:2625" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="2635:2723" ph="///  ... " />
+            <marker date="1535320251062" expanded="true" signature="2769:3037" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="2827:2879" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="2941:2993" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="3047:3135" ph="///  ... " />
+            <marker date="1535320251062" expanded="true" signature="3196:4446" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="3318:3394" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="3411:3474" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="3565:3759" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="3673:3745" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="3965:4160" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="4083:4146" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="4196:4264" ph="{...}" />
+            <marker date="1535320251062" expanded="true" signature="4505:4824" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleBrowser/FrmSnmpSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding>
+            <marker date="1535321166932" expanded="true" signature="0:976" ph="/* &lt;copyright file=&quot;frmSnmpSettings.cs&quot; company=&quot;None&quot;&gt; ... */" />
+            <marker date="1535321166932" expanded="false" signature="984:1014" ph="..." />
+            <marker date="1535321166932" expanded="true" signature="1039:3554" ph="{...}" />
+            <marker date="1535321166932" expanded="false" signature="1052:1108" ph="..." />
+            <marker date="1535321166932" expanded="true" signature="1114:1210" ph="/// A partial definition of the &lt;c&gt;FrmSnmpSettings&lt;/c&gt; form ... " />
+            <marker date="1535321166932" expanded="true" signature="1258:3552" ph="{...}" />
+            <marker date="1535321166932" expanded="true" signature="1323:1441" ph="/// Initializes a new instance of the &lt;see cref=&quot;FrmSnmpSettings&quot;/&gt; class ... " />
+            <marker date="1535321166932" expanded="true" signature="1474:1580" ph="{...}" />
+            <marker date="1535321166932" expanded="true" signature="1644:2088" ph="{...}" />
+            <marker date="1535321166932" expanded="true" signature="1822:1895" ph="{...}" />
+            <marker date="1535321166932" expanded="true" signature="1912:2078" ph="{...}" />
+            <marker date="1535321166932" expanded="true" signature="2176:2330" ph="{...}" />
+            <marker date="1535321166932" expanded="true" signature="2232:2320" ph="{...}" />
+            <marker date="1535321166932" expanded="true" signature="2401:3429" ph="{...}" />
+            <marker date="1535321166932" expanded="true" signature="2540:2718" ph="{...}" />
+            <marker date="1535321166932" expanded="true" signature="2774:2971" ph="{...}" />
+            <marker date="1535321166932" expanded="true" signature="3017:3105" ph="{...}" />
+            <marker date="1535321166932" expanded="true" signature="3122:3393" ph="{...}" />
+            <marker date="1535321166932" expanded="true" signature="3291:3379" ph="{...}" />
+            <marker date="1535321166932" expanded="true" signature="3500:3546" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03056.00/Source/ndp/fx/src/winforms/Managed/System/WinForms/DataGridViewRowCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="322" column="27" selection-start-line="322" selection-start-column="27" selection-end-line="322" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03056.00/Source/ndp/fx/src/winforms/Managed/System/WinForms/DataGridViewColumnCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="266" column="95" selection-start-line="266" selection-start-column="70" selection-end-line="266" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03056.00/Source/ndp/fx/src/winforms/Managed/System/WinForms/DataGridViewColumn.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="220" column="20" selection-start-line="220" selection-start-column="20" selection-end-line="220" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassLibrary1/Helpers/SnmpHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <marker date="1535315828665" expanded="false" signature="6:123" ph="..." />
+            <marker date="1535315828665" expanded="true" signature="151:676" ph="{...}" />
+            <marker date="1535315828665" expanded="true" signature="188:674" ph="{...}" />
+            <marker date="1535315828665" expanded="true" signature="291:535" ph="{...}" />
+            <marker date="1535315828665" expanded="true" signature="378:514" ph="{...}" />
+            <marker date="1535315828665" expanded="true" signature="622:668" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassLibrary1/Orchestration/SnmpGet.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <marker date="1535323125590" expanded="false" signature="6:126" ph="..." />
+            <marker date="1535323125590" expanded="true" signature="168:1235" ph="{...}" />
+            <marker date="1535323125590" expanded="true" signature="217:1233" ph="{...}" />
+            <marker date="1535323125590" expanded="true" signature="312:1227" ph="{...}" />
+            <marker date="1535323125590" expanded="true" signature="437:539" ph="{...}" />
+            <marker date="1535323125590" expanded="true" signature="876:1152" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03056.00/Source/ndp/fx/src/winforms/Managed/System/WinForms/TreeView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="1126" column="20" selection-start-line="1126" selection-start-column="20" selection-end-line="1126" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleSharp/Value/ObjectIdentifierValue.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="540" column="8" selection-start-line="540" selection-start-column="8" selection-end-line="540" selection-end-column="8" />
+          <folding>
+            <marker date="1497125111795" expanded="true" signature="0:1040" ph="/* &lt;copyright file=&quot;ObjectIdentifierValue.cs&quot; company=&quot;None&quot;&gt; ... */" />
+            <marker date="1497125111795" expanded="true" signature="1069:23440" ph="{...}" />
+            <marker date="1497125111795" expanded="false" signature="1082:1173" ph="..." />
+            <marker date="1497125111795" expanded="true" signature="1179:1327" ph="///  An object identifier value. This class stores the component ... " />
+            <marker date="1497125111795" expanded="true" signature="1377:23438" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="1392:1678" ph="/// The declaration file location. This variable is only used when ... " />
+            <marker date="1497125111795" expanded="true" signature="1734:1804" ph="/// The component parent. ... " />
+            <marker date="1497125111795" expanded="true" signature="1847:1919" ph="/// The component children. ... " />
+            <marker date="1497125111795" expanded="true" signature="2020:2106" ph="/// The object identifier component name. ... " />
+            <marker date="1497125111795" expanded="true" signature="2145:2232" ph="/// The object identifier component value. ... " />
+            <marker date="1497125111795" expanded="true" signature="2269:2376" ph="/// The MIB value symbol referenced by this object identifier. ... " />
+            <marker date="1497125111795" expanded="true" signature="2432:2767" ph="/// The cached numeric string representation of this value. This ... " />
+            <marker date="1497125111795" expanded="true" signature="2827:3079" ph="/// Initializes a new instance of the &lt;see cref=&quot;ObjectIdentifierValue&quot;/&gt; class. ... " />
+            <marker date="1497125111795" expanded="true" signature="3168:3282" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="3292:3840" ph="/// Initializes a new instance of the &lt;see cref=&quot;ObjectIdentifierValue&quot;/&gt; class. ... " />
+            <marker date="1497125111795" expanded="true" signature="4043:4442" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="4204:4380" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="4452:4830" ph="/// Initializes a new instance of the &lt;see cref=&quot;ObjectIdentifierValue&quot;/&gt; class. ... " />
+            <marker date="1497125111795" expanded="true" signature="5026:5180" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="5190:5279" ph="/// Gets the parent object identifier value. ... " />
+            <marker date="1497125111795" expanded="true" signature="5323:5448" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="5349:5438" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="5458:5553" ph="/// Gets this object identifier component value. ... " />
+            <marker date="1497125111795" expanded="true" signature="5578:5677" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="5604:5667" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="5687:5943" ph="/// Gets or sets the symbol connected to this object identifier. ... " />
+            <marker date="1497125111795" expanded="true" signature="5980:6282" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="6006:6070" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="6087:6272" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="6140:6220" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="6300:6373" ph="/// Gets the name of the OIV ... " />
+            <marker date="1497125111795" expanded="true" signature="6409:6507" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="6435:6497" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="6517:6616" ph="/// Gets the number of child object identifier values. ... " />
+            <marker date="1497125111795" expanded="true" signature="6646:6782" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="6672:6772" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="6792:7101" ph="/// Gets an enumeration of all child object identifier values. The ... " />
+            <marker date="1497125111795" expanded="true" signature="7160:7262" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="7186:7252" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="7272:7502" ph="/// Gets a detailed string representation of this value. The ... " />
+            <marker date="1497125111795" expanded="true" signature="7539:8291" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="7565:8281" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="7699:7865" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="7905:7989" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="8010:8223" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="8301:8483" ph="/// Gets an ASN.1 representation of this value. The string will ... " />
+            <marker date="1497125111795" expanded="true" signature="8516:9593" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="8542:9583" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="8722:9144" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="8852:8955" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="8980:9084" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="9207:9291" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="9312:9525" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="9603:9764" ph="/// Gets the MIB that this object identifier is connected to. ... " />
+            <marker date="1497125111795" expanded="true" signature="9788:9921" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="9814:9911" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="9931:10589" ph="/// Initializes the MIB value. This will remove all levels of ... " />
+            <marker date="1497125111795" expanded="true" signature="10665:11822" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="10792:10849" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="10901:10981" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="11074:11531" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="11146:11304" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="11325:11517" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="11621:11738" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="11755:11812" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="11832:12332" ph="/// Creates a value reference to this value. The value reference ... " />
+            <marker date="1497125111795" expanded="true" signature="12383:12428" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="12438:12834" ph="/// Clears and prepares this value for garbage collection. This ... " />
+            <marker date="1497125111795" expanded="true" signature="12871:13630" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="13000:13176" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="13095:13162" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="13284:13523" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="13339:13470" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="13640:13951" ph="/// Checks if this object equals another object. This method will ... " />
+            <marker date="1497125111795" expanded="true" signature="13999:14078" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="14088:14241" ph="/// Returns a hash code for this object. ... " />
+            <marker date="1497125111795" expanded="true" signature="14283:14353" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="14363:14719" ph="/// Returns a child object identifier value. The children are ... " />
+            <marker date="1497125111795" expanded="true" signature="14776:14837" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="14847:15309" ph="/// Returns a child object identifier value. The children are ... " />
+            <marker date="1497125111795" expanded="true" signature="15374:15477" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="15487:15851" ph="/// Returns a child object identifier value. The children are ... " />
+            <marker date="1497125111795" expanded="true" signature="15915:16891" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="16103:16234" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="16251:16377" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="16409:16855" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="16514:16584" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="16630:16706" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="16727:16800" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="16909:17210" ph="/// Returns a string representation of this value. The string will ... " />
+            <marker date="1497125111795" expanded="true" signature="17252:17762" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="17347:17707" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="17449:17586" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="17772:18019" ph="/// Compares this object to another MIB Value. ... " />
+            <marker date="1497125111795" expanded="true" signature="18073:18142" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="18160:19116" ph="/// Merges this object identifier value with another one. One of ... " />
+            <marker date="1497125111795" expanded="true" signature="19267:19621" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="19367:19480" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="19497:19611" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="19640:20324" ph="/// Adds a child component. The children will be inserted in the ... " />
+            <marker date="1497125111795" expanded="true" signature="20478:21253" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="20584:20704" ph="/* Insert child in value order, searching backwards to ... */" />
+            <marker date="1497125111795" expanded="true" signature="20730:21172" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="20838:21021" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="21073:21136" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="21263:22145" ph="/// Adds all the children from another object identifier value. ... " />
+            <marker date="1497125111795" expanded="true" signature="22286:23432" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="22397:22466" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="22542:22940" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="22723:22818" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="22839:22926" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="22980:23162" ph="{...}" />
+            <marker date="1497125111795" expanded="true" signature="23223:23385" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassLibrary1/Orchestration/SnmpWalk.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+          <folding>
+            <marker date="1534789802497" expanded="false" signature="6:126" ph="..." />
+            <marker date="1534789802497" expanded="true" signature="168:1599" ph="{...}" />
+            <marker date="1534789802497" expanded="true" signature="216:1597" ph="{...}" />
+            <marker date="1534789802497" expanded="true" signature="311:893" ph="{...}" />
+            <marker date="1534789802497" expanded="true" signature="436:538" ph="{...}" />
+            <marker date="1534789802497" expanded="true" signature="1003:1591" ph="{...}" />
+            <marker date="1534789802497" expanded="true" signature="1128:1230" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleBrowser/MibNodeFormHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="33" column="77" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="77" />
+          <folding>
+            <marker date="1534754817746" expanded="false" signature="6:153" ph="..." />
+            <marker date="1534754817746" expanded="true" signature="178:1498" ph="{...}" />
+            <marker date="1534754817746" expanded="true" signature="218:1496" ph="{...}" />
+            <marker date="1534754817746" expanded="true" signature="432:1490" ph="{...}" />
+            <marker date="1534754817746" expanded="true" signature="473:525" ph="{...}" />
+            <marker date="1534754817746" expanded="true" signature="561:634" ph="{...}" />
+            <marker date="1534754817746" expanded="true" signature="677:1205" ph="{...}" />
+            <marker date="1534754817746" expanded="true" signature="857:1031" ph="{...}" />
+            <marker date="1534754817746" expanded="true" signature="1084:1191" ph="{...}" />
+            <marker date="1534754817746" expanded="true" signature="1222:1480" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03056.00/Source/ndp/fx/src/winforms/Managed/System/WinForms/TabPage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="238" column="15" selection-start-line="238" selection-start-column="15" selection-end-line="238" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassLibrary1/Orchestration/SnmpOrchestrator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding>
+            <marker date="1535318099932" expanded="false" signature="6:78" ph="..." />
+            <marker date="1535318099932" expanded="true" signature="120:1908" ph="{...}" />
+            <marker date="1535318099932" expanded="true" signature="156:1906" ph="{...}" />
+            <marker date="1535318099932" expanded="true" signature="236:649" ph="{...}" />
+            <marker date="1535318099932" expanded="true" signature="709:898" ph="{...}" />
+            <marker date="1535318099932" expanded="true" signature="962:1079" ph="{...}" />
+            <marker date="1535318099932" expanded="true" signature="1147:1268" ph="{...}" />
+            <marker date="1535318099932" expanded="true" signature="1374:1519" ph="{...}" />
+            <marker date="1535318099932" expanded="true" signature="1590:1708" ph="{...}" />
+            <marker date="1535318099932" expanded="true" signature="1782:1900" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassLibrary1/Domain/SnmpTable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+          <folding>
+            <marker date="1535328055293" expanded="false" signature="6:66" ph="..." />
+            <marker date="1535328055293" expanded="true" signature="101:1093" ph="{...}" />
+            <marker date="1535328055293" expanded="true" signature="130:1090" ph="{...}" />
+            <marker date="1535328055293" expanded="true" signature="360:1084" ph="{...}" />
+            <marker date="1535328055293" expanded="true" signature="417:1074" ph="{...}" />
+            <marker date="1535328055293" expanded="true" signature="479:1060" ph="{...}" />
+            <marker date="1535328055293" expanded="true" signature="626:1042" ph="{...}" />
+            <marker date="1535328055293" expanded="true" signature="780:917" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MibbleBrowser/FrmMain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="218" column="45" lean-forward="true" selection-start-line="218" selection-start-column="45" selection-end-line="218" selection-end-column="45" />
+          <folding>
+            <marker date="1535403487704" expanded="true" signature="0:968" ph="/* &lt;copyright file=&quot;frmMain.cs&quot; company=&quot;None&quot;&gt; ... */" />
+            <marker date="1535403487704" expanded="true" signature="976:1169" ph="..." />
+            <marker date="1535403487704" expanded="true" signature="1194:10357" ph="{...}" />
+            <marker date="1535403487704" expanded="false" signature="1207:1323" ph="..." />
+            <marker date="1535403487704" expanded="true" signature="1329:1448" ph="/// Partial class representing the main form of the &lt;c&gt;MibBrowser&lt;/c&gt; application. ... " />
+            <marker date="1535403487704" expanded="true" signature="1488:10355" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="4782:4819" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="4894:5369" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="4970:5100" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="5444:5482" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="5557:5599" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="5674:5713" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="5788:5833" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="5908:9042" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="5990:6120" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="6635:6843" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="7084:7165" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="7215:7935" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="7305:7434" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="7712:7857" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="8236:8945" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="8397:8773" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="8582:8697" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="9106:9941" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="9210:9330" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="9407:9459" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="9542:9656" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="9673:9790" ph="{...}" />
+            <marker date="1535403487704" expanded="true" signature="10027:10349" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

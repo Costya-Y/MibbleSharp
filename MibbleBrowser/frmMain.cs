@@ -18,27 +18,61 @@
 //    Copyright (c) 2016 Jeremy Gibbons. All rights reserved
 // </copyright>
 
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Web.UI.WebControls;
+using MibbleSharp;
+using MibbleSharp.Snmp;
+using MibbleSharp.Type;
+using MibbleSharp.Value;
+
 namespace MibbleBrowser
 {
     using System;
-    using System.Data;
-    using System.Linq;
     using System.Windows.Forms;
+    using SnmpLextmWrapper.Orchestration;
+    using SnmpLextmWrapper.Domain;
 
     /// <summary>
     /// Partial class representing the main form of the <c>MibBrowser</c> application.
     /// </summary>
     public partial class FrmMain : Form
     {
+        private readonly SnmpOrchestrator _snmpOrchestrator = new SnmpOrchestrator();
+        private Dictionary<string, ISnmpParameters> _dataSource = new Dictionary<string, ISnmpParameters>();
+        private Dictionary<string, string> dataGridNodeDetails = new Dictionary<string, string>() {
+            { "Name", ""},
+            { "OID", "" },
+            { "Type", "" },
+            { "MIB", "" },
+            { "Access", "" },
+            { "Status", "" },
+            { "Index", "" },
+            { "Default Value", "" },
+            { "Description", "" }
+        };
+
+
+
+
+
         /// <summary>
         /// Initializes a new instance of the <see cref="FrmMain"/> class.
         /// </summary>
         public FrmMain()
         {
             this.InitializeComponent();
+            foreach (var item in dataGridNodeDetails)
+            {
+                dataGridView2.Rows.Add(item.Key, item.Value);
+            }
+            this.dataGridView2.AutoResizeColumns();
             this.mibTreeBuilder = new MibTreeBuilder(this.treeMibs);
             this.mibTreeBuilder.LoadMibFile("RFC1213-MIB");
             this.mibTreeBuilder.LoadMibFile("HOST-RESOURCES-MIB");
+            // make it readonly
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         /// <summary>
@@ -48,12 +82,10 @@ namespace MibbleBrowser
         /// <param name="e">The event arguments</param>
         private void LoadMIBToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            DialogResult result = this.openFileDialogMain.ShowDialog();
-            if (result == DialogResult.OK)
-            {
-                string file = openFileDialogMain.FileName;
-                mibTreeBuilder.LoadMibFile(file);
-            }
+            var result = this.openFileDialogMain.ShowDialog();
+            if (result != DialogResult.OK) return;
+            var file = openFileDialogMain.FileName;
+            mibTreeBuilder.LoadMibFile(file);
         }
 
         /// <summary>
@@ -63,19 +95,179 @@ namespace MibbleBrowser
         /// <param name="e">The event arguments</param>
         private void TreeMibs_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
         {
-            MibNode n = e.Node as MibNode;
-            if (n == null)
+            dataGridNodeDetails.Values.ToList().Clear();
+            treeMibs.SelectedNode = e.Node;
+            var node = e.Node as MibNode;
+            var nodeHandler = new MibNodeFormHandler(node);
+
+            cmSet.Enabled = false;
+            cmGet.Enabled = false;
+            cmTableView.Enabled = false;
+            if (node.Symbol != null)
+            {
+                if (node.Symbol.IsTable)
+                {
+                    cmTableView.Enabled = true;
+                }
+                else if (node.Symbol.IsScalar || node.Symbol.IsTableColumn)
+                {
+                    cmGet.Enabled = true;
+                    cmGetSubtree.Enabled = false;
+                    if (nodeHandler.IsAccessible.ToLower().Contains("write"))
+                    {
+                        cmSet.Enabled = true;
+                    }
+                }
+            }
+            dataGridNodeDetails["Name"] = node.Name;
+            dataGridNodeDetails["OID"] = nodeHandler.Oid;
+            dataGridNodeDetails["Type"] = nodeHandler.OidType;
+            dataGridNodeDetails["Access"] = nodeHandler.IsAccessible;
+            dataGridNodeDetails["Description"] = nodeHandler.Description;
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            //Get
+            if (comboBox1.SelectedItem == null)
+            {
+                MessageBox.Show("No device info found. Add a device first!");
+                return;
+            }
+
+            var snmpParams = _dataSource[comboBox1.SelectedItem.ToString()];
+            var getResult = _snmpOrchestrator.Get(snmpParams, ((MibNode) treeMibs.SelectedNode).Value.ToString());
+            dataGridView1.Rows.Add(getResult.ToList().ToArray());
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            //Set
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            //GetNext
+        }
+
+        private void toolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            //Walk
+        }
+
+        private void toolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            //GetSubTree
+        }
+
+        private void toolStripMenuItem6_Click(object sender, EventArgs e)
+        {
+            //TableView
+            if (comboBox1.SelectedItem == null)
+            {
+                MessageBox.Show("No device info found. Add a device first!");
+                return;
+            }
+
+            var snmpParams = _dataSource[comboBox1.SelectedItem.ToString()];
+            var mibNode = (MibNode) treeMibs.SelectedNode;
+            var mibNodeNameToOidMap = new Dictionary<string, string>();
+            var columnToSnmpObjMap = new Dictionary<string, Dictionary<string, string>>();
+
+            var newTab =
+                new TabPage(string.Format("{0} - {1}", snmpParams.IP.ToString().Split(':')[0], mibNode.Value.Name));
+            var dataGrid = new ADGV.AdvancedDataGridView()
+            {
+                Dock = DockStyle.Fill, RowHeadersVisible = false, IsAccessible = false, AllowUserToAddRows = false,
+                AllowUserToDeleteRows = false, AllowUserToResizeRows = false
+            };
+//            dataGrid.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
+            var childNodes = mibNode.Nodes;
+            if (mibNode.Nodes.Count < 2 && ((MibNode) mibNode.Nodes[0]).Value.Name.ToLower().Contains("entry"))
+            {
+                childNodes = mibNode.Nodes[0].Nodes;
+            }
+
+            foreach (MibNode node in childNodes)
+            {
+                var column = new DataGridViewTextBoxColumn
+                {
+                    Name = node.Value.Name, HeaderText = node.Value.Name, DefaultCellStyle = {NullValue = ""}
+                };
+                dataGrid.Columns.Add(column);
+                mibNodeNameToOidMap[node.Value.Name] = node.Value.ToString();
+                var typeMap = new Dictionary<string, string>();
+                if (((SnmpObjectType)node.Value.Symbol.Type).Syntax is IntegerType type)
+                {
+                    typeMap = type.AllSymbols.ToDictionary(x=>((NumberValue)x.Value).ToString(), x=>x.Name);
+                }
+
+                columnToSnmpObjMap[node.Value.Name] = typeMap;
+            }
+
+            var result = _snmpOrchestrator.GetTable(snmpParams, mibNode.Value.ToString(), mibNodeNameToOidMap);
+            newTab.Controls.Add(dataGrid);
+            ResultTab.TabPages.Add(newTab);
+
+            var cellColor = Color.WhiteSmoke;
+            foreach (var oid in result.SnmpTableDict)
+            {
+                var rowId = dataGrid.Rows.Add();
+                var row = dataGrid.Rows[rowId];
+                foreach (var column in oid.Value)
+                {
+                    var value = column.Value;
+                    if (columnToSnmpObjMap.ContainsKey(column.Key) && columnToSnmpObjMap[column.Key].ContainsKey(value))
+                    {
+                        value = columnToSnmpObjMap[column.Key][value];
+                    }
+
+                    row.Cells[column.Key].Value = value;
+                }
+
+                row.DefaultCellStyle.BackColor = cellColor;
+
+                cellColor = cellColor == Color.WhiteSmoke ? Color.LightGray : Color.WhiteSmoke;
+            }
+
+            dataGrid.AutoResizeColumns();
+            ResultTab.SelectedTab = newTab;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var form = new FrmSnmpSettings();
+            if (comboBox1.SelectedItem != null)
+            {
+                form = new FrmSnmpSettings(_dataSource[comboBox1.SelectedItem.ToString()]);
+            }
+
+            form.ShowDialog();
+            if (form.snmpParameters == null)
             {
                 return;
             }
 
-            string t = string.Join(
-                "\r\n", 
-                n.Description
-                .Split(new char[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(s => s.Trim()));
+            if (_dataSource.Any(x => x.Key == form.snmpParameters.IP.ToString()))
+            {
+                _dataSource[form.snmpParameters.IP.ToString()] = form.snmpParameters;
+            }
+            else
+            {
+                _dataSource.Add(form.snmpParameters.IP.ToString(), form.snmpParameters);
+            }
 
-            txtNodeInfo.Text = t;
+            comboBox1.Items.Add(form.snmpParameters.IP.ToString());
+            comboBox1.SelectedItem = form.snmpParameters.IP.ToString();
+        }
+
+        private void addNewDeviceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new FrmSnmpSettings();
+            form.ShowDialog();
+            _dataSource.Add(form.snmpParameters.IP.ToString(), form.snmpParameters);
+            comboBox1.Items.Add(form.snmpParameters.IP.ToString());
+            comboBox1.SelectedItem = form.snmpParameters.IP.ToString();
         }
     }
 }

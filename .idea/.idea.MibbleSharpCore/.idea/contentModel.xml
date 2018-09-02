@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="\app" t="IncludeRecursive" />
+    <e p="\feb34106" t="IncludeRecursive" />
+    <e p="C:\Users\issa\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\issa\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\issa\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_MibbleSharpCore.1223266744.00" t="ExcludeRecursive" />
+    <e p="E:\Dev\MibbleSharpCore" t="IncludeFlat">
+      <e p="ClassLibrary1" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Domain" t="Include">
+          <e p="BaseSnmpParameters.cs" t="Include" />
+          <e p="ISnmpParameters.cs" t="Include" />
+          <e p="SnmpLine.cs" t="Include" />
+          <e p="SnmpTable.cs" t="Include" />
+          <e p="SnmpV2Parameters.cs" t="Include" />
+          <e p="SnmpV3Parameters.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="SnmpHelper.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="SnmpLextmWrapper.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Orchestration" t="Include">
+          <e p="ISnmpMethodCaller.cs" t="Include" />
+          <e p="SnmpBulk.cs" t="Include" />
+          <e p="SnmpGet.cs" t="Include" />
+          <e p="SnmpGetNext.cs" t="Include" />
+          <e p="SnmpOrchestrator.cs" t="Include" />
+          <e p="SnmpWalk.cs" t="Include" />
+        </e>
+        <e p="SnmpLextmWrapper.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Grammatica" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Grammatica.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Grammatica.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RE" t="Include">
+          <e p="AlternativeElement.cs" t="Include" />
+          <e p="CharacterSetElement.cs" t="Include" />
+          <e p="CombineElement.cs" t="Include" />
+          <e p="Element.cs" t="Include" />
+          <e p="Matcher.cs" t="Include" />
+          <e p="RegExp.cs" t="Include" />
+          <e p="RegExpException.cs" t="Include" />
+          <e p="RepeatElement.cs" t="Include" />
+          <e p="StringElement.cs" t="Include" />
+        </e>
+        <e p="Runtime" t="Include">
+          <e p="Analyzer.cs" t="Include" />
+          <e p="LookAheadSet.cs" t="Include" />
+          <e p="NFA" t="Include">
+            <e p="NFACharRangeTransition.cs" t="Include" />
+            <e p="NFACharTransition.cs" t="Include" />
+            <e p="NFADigitTransition.cs" t="Include" />
+            <e p="NFADotTransition.cs" t="Include" />
+            <e p="NFAEpsilonTransition.cs" t="Include" />
+            <e p="NFANonDigitTransition.cs" t="Include" />
+            <e p="NFANonWhitespaceTransition.cs" t="Include" />
+            <e p="NFANonWordTransition.cs" t="Include" />
+            <e p="NFAState.cs" t="Include" />
+            <e p="NFAStateQueue.cs" t="Include" />
+            <e p="NFATransition.cs" t="Include" />
+            <e p="NFAWhitespaceTransition.cs" t="Include" />
+            <e p="NFAWordTransition.cs" t="Include" />
+          </e>
+          <e p="Node.cs" t="Include" />
+          <e p="ParseException.cs" t="Include" />
+          <e p="Parser.cs" t="Include" />
+          <e p="ParserCreationException.cs" t="Include" />
+          <e p="ParserLogException.cs" t="Include" />
+          <e p="Production.cs" t="Include" />
+          <e p="ProductionPattern.cs" t="Include" />
+          <e p="ProductionPatternAlternative.cs" t="Include" />
+          <e p="ProductionPatternElement.cs" t="Include" />
+          <e p="ReaderBuffer.cs" t="Include" />
+          <e p="RecursiveDescentParser.cs" t="Include" />
+          <e p="Token.cs" t="Include" />
+          <e p="Tokenizer.cs" t="Include" />
+          <e p="TokenMatch.cs" t="Include" />
+          <e p="TokenNFA.cs" t="Include" />
+          <e p="TokenPattern.cs" t="Include" />
+          <e p="TokenRegExpParser.cs" t="Include" />
+          <e p="TokenStringDFA.cs" t="Include" />
+        </e>
+        <e p="Settings.StyleCop" t="Include" />
+      </e>
+      <e p="MibbleBrowser" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FrmMain.cs" t="Include" />
+        <e p="FrmMain.Designer.cs" t="Include" />
+        <e p="FrmMain.resx" t="Include" />
+        <e p="FrmSnmpSettings.cs" t="Include" />
+        <e p="FrmSnmpSettings.Designer.cs" t="Include" />
+        <e p="FrmSnmpSettings.resx" t="Include" />
+        <e p="if_folder_370080.ico" t="Include" />
+        <e p="MibbleBrowser.csproj" t="IncludeRecursive" />
+        <e p="MibNode.cs" t="Include" />
+        <e p="MibNodeFormHandler.cs" t="Include" />
+        <e p="MibTreeBuilder.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="file.ico" t="Include" />
+        </e>
+        <e p="SnmpSettings" t="Include">
+          <e p="SettingsNode.cs" t="Include" />
+          <e p="SnmpSettings.cs" t="Include" />
+          <e p="SnmpSettingsConstants.cs" t="Include" />
+        </e>
+      </e>
+      <e p="MibbleSharp" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="Asn1" t="Include">
+          <e p="Asn1Analyzer.cs" t="Include" />
+          <e p="Asn1Constants.cs" t="Include" />
+          <e p="Asn1Parser.cs" t="Include" />
+          <e p="Asn1Tokenizer.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CompoundContext.cs" t="Include" />
+        <e p="DefaultContext.cs" t="Include" />
+        <e p="FIleLocation.cs" t="Include" />
+        <e p="grammar" t="Include">
+          <e p="asn1.grammar" t="Include" />
+          <e p="snacc-asn1.grammar" t="Include" />
+        </e>
+        <e p="IMibContext.cs" t="Include" />
+        <e p="Mib.cs" t="Include" />
+        <e p="MibAnalyzer.cs" t="Include" />
+        <e p="MibAnalyzerUtil.cs" t="Include" />
+        <e p="MibbleSharp.csproj" t="IncludeRecursive" />
+        <e p="MibDirectoryCache.cs" t="Include" />
+        <e p="MibException.cs" t="Include" />
+        <e p="MibImport.cs" t="Include" />
+        <e p="MibLoader.cs" t="Include" />
+        <e p="MibLoaderException.cs" t="Include" />
+        <e p="MibLoaderLog.cs" t="Include" />
+        <e p="MibMacroSymbol.cs" t="Include" />
+        <e p="mibs" t="Include">
+          <e p="iana" t="Include">
+            <e p="IANA-ADDRESS-FAMILY-NUMBERS-MIB" t="Include" />
+            <e p="IANA-CHARSET-MIB" t="Include" />
+            <e p="IANA-FINISHER-MIB" t="Include" />
+            <e p="IANA-GMPLS-TC-MIB" t="Include" />
+            <e p="IANA-IPPM-METRICS-REGISTRY-MIB" t="Include" />
+            <e p="IANA-ITU-ALARM-TC-MIB" t="Include" />
+            <e p="IANA-LANGUAGE-MIB" t="Include" />
+            <e p="IANA-MALLOC-MIB" t="Include" />
+            <e p="IANA-MAU-MIB" t="Include" />
+            <e p="IANA-PRINTER-MIB" t="Include" />
+            <e p="IANA-RTPROTO-MIB" t="Include" />
+            <e p="IANAifType-MIB" t="Include" />
+            <e p="IANATn3270eTC-MIB" t="Include" />
+          </e>
+          <e p="ietf" t="Include">
+            <e p="ACCOUNTING-CONTROL-MIB" t="Include" />
+            <e p="ADSL-LINE-EXT-MIB" t="Include" />
+            <e p="ADSL-LINE-MIB" t="Include" />
+            <e p="ADSL-TC-MIB" t="Include" />
+            <e p="ADSL2-LINE-MIB" t="Include" />
+            <e p="ADSL2-LINE-TC-MIB" t="Include" />
+            <e p="AGENTX-MIB" t="Include" />
+            <e p="AGGREGATE-MIB" t="Include" />
+            <e p="ALARM-MIB" t="Include" />
+            <e p="APM-MIB" t="Include" />
+            <e p="APPC-MIB" t="Include" />
+            <e p="APPLETALK-MIB" t="Include" />
+            <e p="APPLICATION-MIB" t="Include" />
+            <e p="APPN-DLUR-MIB" t="Include" />
+            <e p="APPN-MIB" t="Include" />
+            <e p="APPN-TRAP-MIB" t="Include" />
+            <e p="APS-MIB" t="Include" />
+            <e p="ARC-MIB" t="Include" />
+            <e p="ATM-ACCOUNTING-INFORMATION-MIB" t="Include" />
+            <e p="ATM-MIB" t="Include" />
+            <e p="ATM-TC-MIB" t="Include" />
+            <e p="ATM2-MIB" t="Include" />
+            <e p="BGP4-MIB" t="Include" />
+            <e p="BLDG-HVAC-MIB" t="Include" />
+            <e p="BRIDGE-MIB" t="Include" />
+            <e p="CHARACTER-MIB" t="Include" />
+            <e p="CIRCUIT-IF-MIB" t="Include" />
+            <e p="CLNS-MIB" t="Include" />
+            <e p="COFFEE-POT-MIB" t="Include" />
+            <e p="COPS-CLIENT-MIB" t="Include" />
+            <e p="DECNET-PHIV-MIB" t="Include" />
+            <e p="DIAL-CONTROL-MIB" t="Include" />
+            <e p="DIFFSERV-CONFIG-MIB" t="Include" />
+            <e p="DIFFSERV-DSCP-TC" t="Include" />
+            <e p="DIFFSERV-MIB" t="Include" />
+            <e p="DIRECTORY-SERVER-MIB" t="Include" />
+            <e p="DISMAN-EVENT-MIB" t="Include" />
+            <e p="DISMAN-EXPRESSION-MIB" t="Include" />
+            <e p="DISMAN-NSLOOKUP-MIB" t="Include" />
+            <e p="DISMAN-PING-MIB" t="Include" />
+            <e p="DISMAN-SCHEDULE-MIB" t="Include" />
+            <e p="DISMAN-SCRIPT-MIB" t="Include" />
+            <e p="DISMAN-TRACEROUTE-MIB" t="Include" />
+            <e p="DLSW-MIB" t="Include" />
+            <e p="DNS-RESOLVER-MIB" t="Include" />
+            <e p="DNS-SERVER-MIB" t="Include" />
+            <e p="DOCS-BPI-MIB" t="Include" />
+            <e p="DOCS-CABLE-DEVICE-MIB" t="Include" />
+            <e p="DOCS-IETF-BPI2-MIB" t="Include" />
+            <e p="DOCS-IETF-CABLE-DEVICE-NOTIFICATION-MIB" t="Include" />
+            <e p="DOCS-IETF-QOS-MIB" t="Include" />
+            <e p="DOCS-IETF-SUBMGT-MIB" t="Include" />
+            <e p="DOCS-IF-MIB" t="Include" />
+            <e p="DOT12-IF-MIB" t="Include" />
+            <e p="DOT12-RPTR-MIB" t="Include" />
+            <e p="DOT3-EPON-MIB" t="Include" />
+            <e p="DOT3-OAM-MIB" t="Include" />
+            <e p="DS0-MIB" t="Include" />
+            <e p="DS0BUNDLE-MIB" t="Include" />
+            <e p="DS1-MIB" t="Include" />
+            <e p="DS3-MIB" t="Include" />
+            <e p="DSA-MIB" t="Include" />
+            <e p="DSMON-MIB" t="Include" />
+            <e p="EBN-MIB" t="Include" />
+            <e p="EFM-CU-MIB" t="Include" />
+            <e p="ENTITY-MIB" t="Include" />
+            <e p="ENTITY-SENSOR-MIB" t="Include" />
+            <e p="ENTITY-STATE-MIB" t="Include" />
+            <e p="ENTITY-STATE-TC-MIB" t="Include" />
+            <e p="ETHER-CHIPSET-MIB" t="Include" />
+            <e p="ETHER-WIS" t="Include" />
+            <e p="EtherLike-MIB" t="Include" />
+            <e p="FC-MGMT-MIB" t="Include" />
+            <e p="FCIP-MGMT-MIB" t="Include" />
+            <e p="FDDI-SMT73-MIB" t="Include" />
+            <e p="FIBRE-CHANNEL-FE-MIB" t="Include" />
+            <e p="Finisher-MIB" t="Include" />
+            <e p="FLOW-METER-MIB" t="Include" />
+            <e p="FR-ATM-PVC-SERVICE-IWF-MIB" t="Include" />
+            <e p="FR-MFR-MIB" t="Include" />
+            <e p="FRAME-RELAY-DTE-MIB" t="Include" />
+            <e p="FRNETSERV-MIB" t="Include" />
+            <e p="FRSLD-MIB" t="Include" />
+            <e p="GMPLS-LABEL-STD-MIB" t="Include" />
+            <e p="GMPLS-LSR-STD-MIB" t="Include" />
+            <e p="GMPLS-TC-STD-MIB" t="Include" />
+            <e p="GMPLS-TE-STD-MIB" t="Include" />
+            <e p="GSMP-MIB" t="Include" />
+            <e p="HC-ALARM-MIB" t="Include" />
+            <e p="HC-PerfHist-TC-MIB" t="Include" />
+            <e p="HC-RMON-MIB" t="Include" />
+            <e p="HCNUM-TC" t="Include" />
+            <e p="HDSL2-SHDSL-LINE-MIB" t="Include" />
+            <e p="HOST-RESOURCES-MIB" t="Include" />
+            <e p="HOST-RESOURCES-TYPES" t="Include" />
+            <e p="HPR-IP-MIB" t="Include" />
+            <e p="HPR-MIB" t="Include" />
+            <e p="IANA-ITU-ALARM-TC-MIB" t="Include" />
+            <e p="IF-CAP-STACK-MIB" t="Include" />
+            <e p="IF-INVERTED-STACK-MIB" t="Include" />
+            <e p="IF-MIB" t="Include" />
+            <e p="IFCP-MGMT-MIB" t="Include" />
+            <e p="IGMP-STD-MIB" t="Include" />
+            <e p="INET-ADDRESS-MIB" t="Include" />
+            <e p="INTEGRATED-SERVICES-GUARANTEED-MIB" t="Include" />
+            <e p="INTEGRATED-SERVICES-MIB" t="Include" />
+            <e p="INTERFACETOPN-MIB" t="Include" />
+            <e p="IP-FORWARD-MIB" t="Include" />
+            <e p="IP-MIB" t="Include" />
+            <e p="IPATM-IPMC-MIB" t="Include" />
+            <e p="IPMCAST-MIB" t="Include" />
+            <e p="IPMROUTE-STD-MIB" t="Include" />
+            <e p="IPOA-MIB" t="Include" />
+            <e p="IPS-AUTH-MIB" t="Include" />
+            <e p="IPSEC-SPD-MIB" t="Include" />
+            <e p="IPV6-FLOW-LABEL-MIB" t="Include" />
+            <e p="IPV6-ICMP-MIB" t="Include" />
+            <e p="IPV6-MIB" t="Include" />
+            <e p="IPV6-MLD-MIB" t="Include" />
+            <e p="IPV6-TC" t="Include" />
+            <e p="IPV6-TCP-MIB" t="Include" />
+            <e p="IPV6-UDP-MIB" t="Include" />
+            <e p="ISCSI-MIB" t="Include" />
+            <e p="ISDN-MIB" t="Include" />
+            <e p="ISIS-MIB" t="Include" />
+            <e p="ISNS-MIB" t="Include" />
+            <e p="ITU-ALARM-MIB" t="Include" />
+            <e p="ITU-ALARM-TC-MIB" t="Include" />
+            <e p="Job-Monitoring-MIB" t="Include" />
+            <e p="L2TP-MIB" t="Include" />
+            <e p="LANGTAG-TC-MIB" t="Include" />
+            <e p="LMP-MIB" t="Include" />
+            <e p="MALLOC-MIB" t="Include" />
+            <e p="MAU-MIB" t="Include" />
+            <e p="MIDCOM-MIB" t="Include" />
+            <e p="MIOX25-MIB" t="Include" />
+            <e p="MIP-MIB" t="Include" />
+            <e p="MOBILEIPV6-MIB" t="Include" />
+            <e p="Modem-MIB" t="Include" />
+            <e p="MPLS-FTN-STD-MIB" t="Include" />
+            <e p="MPLS-L3VPN-STD-MIB" t="Include" />
+            <e p="MPLS-LC-ATM-STD-MIB" t="Include" />
+            <e p="MPLS-LC-FR-STD-MIB" t="Include" />
+            <e p="MPLS-LDP-ATM-STD-MIB" t="Include" />
+            <e p="MPLS-LDP-FRAME-RELAY-STD-MIB" t="Include" />
+            <e p="MPLS-LDP-GENERIC-STD-MIB" t="Include" />
+            <e p="MPLS-LDP-STD-MIB" t="Include" />
+            <e p="MPLS-LSR-STD-MIB" t="Include" />
+            <e p="MPLS-TC-STD-MIB" t="Include" />
+            <e p="MPLS-TE-STD-MIB" t="Include" />
+            <e p="MSDP-MIB" t="Include" />
+            <e p="MTA-MIB" t="Include" />
+            <e p="NAT-MIB" t="Include" />
+            <e p="NETWORK-SERVICES-MIB" t="Include" />
+            <e p="NHRP-MIB" t="Include" />
+            <e p="NOTIFICATION-LOG-MIB" t="Include" />
+            <e p="OPT-IF-MIB" t="Include" />
+            <e p="OSPF-MIB" t="Include" />
+            <e p="OSPF-TRAP-MIB" t="Include" />
+            <e p="P-BRIDGE-MIB" t="Include" />
+            <e p="PARALLEL-MIB" t="Include" />
+            <e p="PerfHist-TC-MIB" t="Include" />
+            <e p="PIM-MIB" t="Include" />
+            <e p="PIM-STD-MIB" t="Include" />
+            <e p="PINT-MIB" t="Include" />
+            <e p="PKTC-IETF-MTA-MIB" t="Include" />
+            <e p="PKTC-IETF-SIG-MIB" t="Include" />
+            <e p="POLICY-BASED-MANAGEMENT-MIB" t="Include" />
+            <e p="POWER-ETHERNET-MIB" t="Include" />
+            <e p="PPP-BRIDGE-NCP-MIB" t="Include" />
+            <e p="PPP-IP-NCP-MIB" t="Include" />
+            <e p="PPP-LCP-MIB" t="Include" />
+            <e p="PPP-SEC-MIB" t="Include" />
+            <e p="Printer-MIB" t="Include" />
+            <e p="PTOPO-MIB" t="Include" />
+            <e p="Q-BRIDGE-MIB" t="Include" />
+            <e p="RADIUS-ACC-CLIENT-MIB" t="Include" />
+            <e p="RADIUS-ACC-SERVER-MIB" t="Include" />
+            <e p="RADIUS-AUTH-CLIENT-MIB" t="Include" />
+            <e p="RADIUS-AUTH-SERVER-MIB" t="Include" />
+            <e p="RADIUS-DYNAUTH-CLIENT-MIB" t="Include" />
+            <e p="RADIUS-DYNAUTH-SERVER-MIB" t="Include" />
+            <e p="RAQMON-MIB" t="Include" />
+            <e p="RDBMS-MIB" t="Include" />
+            <e p="RFC-1212" t="Include" />
+            <e p="RFC-1215" t="Include" />
+            <e p="RFC1065-SMI" t="Include" />
+            <e p="RFC1155-SMI" t="Include" />
+            <e p="RFC1158-MIB" t="Include" />
+            <e p="RFC1213-MIB" t="Include" />
+            <e p="RFC1229-MIB" t="Include" />
+            <e p="RFC1231-MIB" t="Include" />
+            <e p="RFC1243-MIB" t="Include" />
+            <e p="RFC1253-MIB" t="Include" />
+            <e p="RFC1269-MIB" t="Include" />
+            <e p="RFC1271-MIB" t="Include" />
+            <e p="RFC1285-MIB" t="Include" />
+            <e p="RFC1315-MIB" t="Include" />
+            <e p="RFC1316-MIB" t="Include" />
+            <e p="RFC1381-MIB" t="Include" />
+            <e p="RFC1382-MIB" t="Include" />
+            <e p="RFC1398-MIB" t="Include" />
+            <e p="RFC1406-MIB" t="Include" />
+            <e p="RFC1407-MIB" t="Include" />
+            <e p="RFC1414-MIB" t="Include" />
+            <e p="RIPv2-MIB" t="Include" />
+            <e p="RMON-MIB" t="Include" />
+            <e p="RMON2-MIB" t="Include" />
+            <e p="ROHC-MIB" t="Include" />
+            <e p="ROHC-RTP-MIB" t="Include" />
+            <e p="ROHC-UNCOMPRESSED-MIB" t="Include" />
+            <e p="RS-232-MIB" t="Include" />
+            <e p="RSTP-MIB" t="Include" />
+            <e p="RSVP-MIB" t="Include" />
+            <e p="RTP-MIB" t="Include" />
+            <e p="SCSI-MIB" t="Include" />
+            <e p="SCTP-MIB" t="Include" />
+            <e p="SFLOW-MIB" t="Include" />
+            <e p="SIP-COMMON-MIB" t="Include" />
+            <e p="SIP-MIB" t="Include" />
+            <e p="SIP-SERVER-MIB" t="Include" />
+            <e p="SIP-TC-MIB" t="Include" />
+            <e p="SIP-UA-MIB" t="Include" />
+            <e p="SLAPM-MIB" t="Include" />
+            <e p="SMON-MIB" t="Include" />
+            <e p="SNA-NAU-MIB" t="Include" />
+            <e p="SNA-SDLC-MIB" t="Include" />
+            <e p="SNMP-COMMUNITY-MIB" t="Include" />
+            <e p="SNMP-FRAMEWORK-MIB" t="Include" />
+            <e p="SNMP-MPD-MIB" t="Include" />
+            <e p="SNMP-NOTIFICATION-MIB" t="Include" />
+            <e p="SNMP-PROXY-MIB" t="Include" />
+            <e p="SNMP-REPEATER-MIB" t="Include" />
+            <e p="SNMP-TARGET-MIB" t="Include" />
+            <e p="SNMP-USER-BASED-SM-MIB" t="Include" />
+            <e p="SNMP-USM-AES-MIB" t="Include" />
+            <e p="SNMP-USM-DH-OBJECTS-MIB" t="Include" />
+            <e p="SNMP-VIEW-BASED-ACM-MIB" t="Include" />
+            <e p="SNMPv2-CONF" t="Include" />
+            <e p="SNMPv2-MIB" t="Include" />
+            <e p="SNMPv2-PDU" t="Include" />
+            <e p="SNMPv2-SMI" t="Include" />
+            <e p="SNMPv2-TC" t="Include" />
+            <e p="SNMPv2-TM" t="Include" />
+            <e p="SNMPv2-USEC-MIB" t="Include" />
+            <e p="SONET-MIB" t="Include" />
+            <e p="SOURCE-ROUTING-MIB" t="Include" />
+            <e p="SSPM-MIB" t="Include" />
+            <e p="SYSAPPL-MIB" t="Include" />
+            <e p="T11-FC-FABRIC-ADDR-MGR-MIB" t="Include" />
+            <e p="T11-FC-FABRIC-CONFIG-SERVER-MIB" t="Include" />
+            <e p="T11-FC-FABRIC-LOCK-MIB" t="Include" />
+            <e p="T11-FC-FSPF-MIB" t="Include" />
+            <e p="T11-FC-NAME-SERVER-MIB" t="Include" />
+            <e p="T11-FC-ROUTE-MIB" t="Include" />
+            <e p="T11-FC-RSCN-MIB" t="Include" />
+            <e p="T11-FC-VIRTUAL-FABRIC-MIB" t="Include" />
+            <e p="T11-FC-ZONE-SERVER-MIB" t="Include" />
+            <e p="T11-TC-MIB" t="Include" />
+            <e p="TCP-ESTATS-MIB" t="Include" />
+            <e p="TCP-MIB" t="Include" />
+            <e p="TCPIPX-MIB" t="Include" />
+            <e p="TE-LINK-STD-MIB" t="Include" />
+            <e p="TE-MIB" t="Include" />
+            <e p="TIME-AGGREGATE-MIB" t="Include" />
+            <e p="TN3270E-MIB" t="Include" />
+            <e p="TN3270E-RT-MIB" t="Include" />
+            <e p="TOKEN-RING-RMON-MIB" t="Include" />
+            <e p="TOKENRING-MIB" t="Include" />
+            <e p="TOKENRING-STATION-SR-MIB" t="Include" />
+            <e p="TRANSPORT-ADDRESS-MIB" t="Include" />
+            <e p="TRIP-MIB" t="Include" />
+            <e p="TRIP-TC-MIB" t="Include" />
+            <e p="TUNNEL-MIB" t="Include" />
+            <e p="UDP-MIB" t="Include" />
+            <e p="UDPLITE-MIB" t="Include" />
+            <e p="UPS-MIB" t="Include" />
+            <e p="URI-TC-MIB" t="Include" />
+            <e p="VDSL-LINE-EXT-MCM-MIB" t="Include" />
+            <e p="VDSL-LINE-EXT-SCM-MIB" t="Include" />
+            <e p="VDSL-LINE-MIB" t="Include" />
+            <e p="VPN-TC-STD-MIB" t="Include" />
+            <e p="VRRP-MIB" t="Include" />
+            <e p="WWW-MIB" t="Include" />
+          </e>
+        </e>
+        <e p="MibSymbol.cs" t="Include" />
+        <e p="MibType.cs" t="Include" />
+        <e p="MibTypeContext.cs" t="Include" />
+        <e p="MibTypeSymbol.cs" t="Include" />
+        <e p="MibTypeTag.cs" t="Include" />
+        <e p="MibValue.cs" t="Include" />
+        <e p="MibValueSymbol.cs" t="Include" />
+        <e p="NamedNumber.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="MibbleSharp.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="Settings.StyleCop" t="Include" />
+        <e p="Snmp" t="Include">
+          <e p="SnmpAccess.cs" t="Include" />
+          <e p="SnmpAgentCapabilities.cs" t="Include" />
+          <e p="SnmpCompliance.cs" t="Include" />
+          <e p="SnmpIndex.cs" t="Include" />
+          <e p="SnmpModule.cs" t="Include" />
+          <e p="SnmpModuleCompliance.cs" t="Include" />
+          <e p="SnmpModuleIdentity.cs" t="Include" />
+          <e p="SnmpModuleSupport.cs" t="Include" />
+          <e p="SnmpNotificationGroup.cs" t="Include" />
+          <e p="SnmpNotificationType.cs" t="Include" />
+          <e p="SnmpObjectGroup.cs" t="Include" />
+          <e p="SnmpObjectIdentity.cs" t="Include" />
+          <e p="SnmpObjectType.cs" t="Include" />
+          <e p="SnmpRevision.cs" t="Include" />
+          <e p="SnmpStatus.cs" t="Include" />
+          <e p="SnmpTextualConvention.cs" t="Include" />
+          <e p="SnmpTrapType.cs" t="Include" />
+          <e p="SnmpType.cs" t="Include" />
+          <e p="SnmpVariation.cs" t="Include" />
+        </e>
+        <e p="Type" t="Include">
+          <e p="BitSetType.cs" t="Include" />
+          <e p="BooleanType.cs" t="Include" />
+          <e p="ChoiceType.cs" t="Include" />
+          <e p="CompoundConstraint.cs" t="Include" />
+          <e p="ElementType.cs" t="Include" />
+          <e p="IConstraint.cs" t="Include" />
+          <e p="IntegerType.cs" t="Include" />
+          <e p="NullType.cs" t="Include" />
+          <e p="ObjectIdentifierType.cs" t="Include" />
+          <e p="RealType.cs" t="Include" />
+          <e p="SequenceOfType.cs" t="Include" />
+          <e p="SequenceType.cs" t="Include" />
+          <e p="SizeConstraint.cs" t="Include" />
+          <e p="StringType.cs" t="Include" />
+          <e p="TypeReference.cs" t="Include" />
+          <e p="ValueConstraint.cs" t="Include" />
+          <e p="ValueRangeConstraint.cs" t="Include" />
+        </e>
+        <e p="Util" t="Include">
+          <e p="BigIntegerExtensions.cs" t="Include" />
+        </e>
+        <e p="Value" t="Include">
+          <e p="BinaryNumberValue.cs" t="Include" />
+          <e p="BitSetValue.cs" t="Include" />
+          <e p="BooleanValue.cs" t="Include" />
+          <e p="HexNumberValue.cs" t="Include" />
+          <e p="NullValue.cs" t="Include" />
+          <e p="NumberValue.cs" t="Include" />
+          <e p="ObjectIdentifierValue.cs" t="Include" />
+          <e p="RealValue.cs" t="Include" />
+          <e p="StringValue.cs" t="Include" />
+          <e p="ValueReference.cs" t="Include" />
+        </e>
+      </e>
+      <e p="MibbleSharpCore.sln" t="IncludeFlat" />
+      <e p="MibbleValidator" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MibbleValidator.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="MibbleValidator.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
