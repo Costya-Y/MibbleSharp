@@ -40,22 +40,20 @@ namespace MibbleBrowser
     public partial class FrmMain : Form
     {
         private readonly SnmpOrchestrator _snmpOrchestrator = new SnmpOrchestrator();
+        private readonly string _mibTreeRoot = "Mibs";
         private Dictionary<string, ISnmpParameters> _dataSource = new Dictionary<string, ISnmpParameters>();
-        private Dictionary<string, string> dataGridNodeDetails = new Dictionary<string, string>() {
-            { "Name", ""},
-            { "OID", "" },
-            { "Type", "" },
-            { "MIB", "" },
-            { "Access", "" },
-            { "Status", "" },
-            { "Index", "" },
-            { "Default Value", "" },
-            { "Description", "" }
-        };
-
-
-
-
+        private enum MibNodeDetailsDGEnum
+        {
+            Name = 0,
+            OID = 1,
+            Type = 2,
+            MIB = 3,
+            Access = 4,
+            Status = 5,
+            Index = 6,
+            Default_Value = 7,
+            Description = 8
+        }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="FrmMain"/> class.
@@ -63,12 +61,13 @@ namespace MibbleBrowser
         public FrmMain()
         {
             this.InitializeComponent();
-            foreach (var item in dataGridNodeDetails)
+            foreach (var item in Enum.GetValues(typeof(MibNodeDetailsDGEnum)))
             {
-                dataGridView2.Rows.Add(item.Key, item.Value);
+                dataGridView2.Rows.Add(item.ToString().Replace("_", ""), "");
             }
+            //UpdateMibNodeDescriptionDG();
             this.dataGridView2.AutoResizeColumns();
-            this.mibTreeBuilder = new MibTreeBuilder(this.treeMibs);
+            this.mibTreeBuilder = new MibTreeBuilder(this.treeMibs, _mibTreeRoot);
             this.mibTreeBuilder.LoadMibFile("RFC1213-MIB");
             this.mibTreeBuilder.LoadMibFile("HOST-RESOURCES-MIB");
             // make it readonly
@@ -95,7 +94,7 @@ namespace MibbleBrowser
         /// <param name="e">The event arguments</param>
         private void TreeMibs_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
         {
-            dataGridNodeDetails.Values.ToList().Clear();
+            //dataGridNodeDetails.Values.ToList().Clear();
             treeMibs.SelectedNode = e.Node;
             var node = e.Node as MibNode;
             var nodeHandler = new MibNodeFormHandler(node);
@@ -119,11 +118,18 @@ namespace MibbleBrowser
                     }
                 }
             }
-            dataGridNodeDetails["Name"] = node.Name;
-            dataGridNodeDetails["OID"] = nodeHandler.Oid;
-            dataGridNodeDetails["Type"] = nodeHandler.OidType;
-            dataGridNodeDetails["Access"] = nodeHandler.IsAccessible;
-            dataGridNodeDetails["Description"] = nodeHandler.Description;
+            if (node.Parent == null)
+            {
+                return;
+            }
+            dataGridView2.Rows[(int)MibNodeDetailsDGEnum.Name].Cells[1].Value = node.Value.Name;
+            dataGridView2.Rows[(int)MibNodeDetailsDGEnum.MIB].Cells[1].Value = node.Value.Symbol.Mib;
+            dataGridView2.Rows[(int)MibNodeDetailsDGEnum.OID].Cells[1].Value = nodeHandler.Oid;
+            dataGridView2.Rows[(int)MibNodeDetailsDGEnum.Type].Cells[1].Value = nodeHandler.OidType;
+            dataGridView2.Rows[(int)MibNodeDetailsDGEnum.Access].Cells[1].Value = nodeHandler.IsAccessible;
+            //dataGridView2.Rows[(int)MibNodeDetailsDGEnum.Status].Cells[1].Value = node.Value.Symbol;
+            dataGridView2.Rows[(int)MibNodeDetailsDGEnum.Description].Cells[1].Value = nodeHandler.Description;
+
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
@@ -136,7 +142,12 @@ namespace MibbleBrowser
             }
 
             var snmpParams = _dataSource[comboBox1.SelectedItem.ToString()];
-            var getResult = _snmpOrchestrator.Get(snmpParams, ((MibNode) treeMibs.SelectedNode).Value.ToString());
+            var oid = ((MibNode)treeMibs.SelectedNode).Value.ToString();
+            if (((MibNode)treeMibs.SelectedNode).Value.Symbol.IsScalar)
+            {
+                oid += ".0";
+            }
+            var getResult = _snmpOrchestrator.Get(snmpParams, oid);
             dataGridView1.Rows.Add(getResult.ToList().ToArray());
         }
 

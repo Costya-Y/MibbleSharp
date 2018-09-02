@@ -7,6 +7,7 @@ namespace SnmpLextmWrapper.Orchestration
 {
     internal class SnmpGet : ISnmpMethodCaller
     {
+  
         public List<SnmpLine> ExecuteRequest(ISnmpParameters snmpParams, string OidLine)
         {
             var community = new OctetString("");
@@ -14,23 +15,11 @@ namespace SnmpLextmWrapper.Orchestration
             {
                 community = ((SnmpV2Parameters)snmpParams).SnmpCommunity;
             }
-
             var result = Messenger.Get(snmpParams.Version,
                            snmpParams.IP,
                            community,
                            new List<Variable> { new Variable(new ObjectIdentifier(OidLine)) },
                            60000);
-
-            if (result.Count == 0 || result[0] is NoSuchInstance)
-            {
-                result = Messenger.Get(snmpParams.Version,
-                    snmpParams.IP,
-                    community,
-                    new List<Variable> { new Variable(new ObjectIdentifier(OidLine + ".0")) },
-                    60000);
-            }
-
-
             return SnmpHelper.ConvertOutputToSnmpLine(result);
         }
     }

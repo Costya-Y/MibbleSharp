@@ -32,6 +32,7 @@ namespace MibbleBrowser
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fIleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loadMIBToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,6 +52,9 @@ namespace MibbleBrowser
             this.cmWalk = new System.Windows.Forms.ToolStripMenuItem();
             this.cmGetSubtree = new System.Windows.Forms.ToolStripMenuItem();
             this.cmTableView = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coluValue = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ResultTab = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -61,9 +65,6 @@ namespace MibbleBrowser
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.coluValue = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -74,10 +75,10 @@ namespace MibbleBrowser
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.ResultTab.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -165,7 +166,7 @@ namespace MibbleBrowser
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.ResultTab);
-            this.splitContainer1.Size = new System.Drawing.Size(927, 475);
+            this.splitContainer1.Size = new System.Drawing.Size(927, 488);
             this.splitContainer1.SplitterDistance = 308;
             this.splitContainer1.TabIndex = 1;
             // 
@@ -185,8 +186,8 @@ namespace MibbleBrowser
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.dataGridView2);
-            this.splitContainer2.Size = new System.Drawing.Size(302, 469);
-            this.splitContainer2.SplitterDistance = 292;
+            this.splitContainer2.Size = new System.Drawing.Size(302, 482);
+            this.splitContainer2.SplitterDistance = 300;
             this.splitContainer2.TabIndex = 2;
             // 
             // treeMibs
@@ -197,7 +198,7 @@ namespace MibbleBrowser
             this.treeMibs.ContextMenuStrip = this.contextMenuStrip1;
             this.treeMibs.Location = new System.Drawing.Point(-1, 3);
             this.treeMibs.Name = "treeMibs";
-            this.treeMibs.Size = new System.Drawing.Size(304, 286);
+            this.treeMibs.Size = new System.Drawing.Size(304, 294);
             this.treeMibs.TabIndex = 1;
             this.treeMibs.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.TreeMibs_NodeMouseClick);
             // 
@@ -255,6 +256,40 @@ namespace MibbleBrowser
             this.cmTableView.Text = "Table View";
             this.cmTableView.Click += new System.EventHandler(this.toolStripMenuItem6_Click);
             // 
+            // dataGridView2
+            // 
+            this.dataGridView2.AllowUserToAddRows = false;
+            this.dataGridView2.AllowUserToDeleteRows = false;
+            this.dataGridView2.AllowUserToOrderColumns = true;
+            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.ColumnHeadersVisible = false;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colName,
+            this.coluValue});
+            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
+            this.dataGridView2.RowHeadersVisible = false;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView2.Size = new System.Drawing.Size(302, 178);
+            this.dataGridView2.TabIndex = 0;
+            // 
+            // colName
+            // 
+            this.colName.HeaderText = "colName";
+            this.colName.Name = "colName";
+            this.colName.ReadOnly = true;
+            // 
+            // coluValue
+            // 
+            this.coluValue.HeaderText = "coluValue";
+            this.coluValue.Name = "coluValue";
+            this.coluValue.ReadOnly = true;
+            // 
             // ResultTab
             // 
             this.ResultTab.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -264,7 +299,7 @@ namespace MibbleBrowser
             this.ResultTab.Location = new System.Drawing.Point(-1, 0);
             this.ResultTab.Name = "ResultTab";
             this.ResultTab.SelectedIndex = 0;
-            this.ResultTab.Size = new System.Drawing.Size(613, 394);
+            this.ResultTab.Size = new System.Drawing.Size(613, 407);
             this.ResultTab.TabIndex = 1;
             // 
             // tabPage1
@@ -273,7 +308,7 @@ namespace MibbleBrowser
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(605, 368);
+            this.tabPage1.Size = new System.Drawing.Size(605, 381);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Result";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -294,7 +329,7 @@ namespace MibbleBrowser
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(599, 362);
+            this.dataGridView1.Size = new System.Drawing.Size(599, 375);
             this.dataGridView1.TabIndex = 0;
             // 
             // colOID
@@ -344,43 +379,11 @@ namespace MibbleBrowser
             this.textBox4.Size = new System.Drawing.Size(577, 20);
             this.textBox4.TabIndex = 2;
             // 
-            // dataGridView2
-            // 
-            this.dataGridView2.AllowUserToAddRows = false;
-            this.dataGridView2.AllowUserToDeleteRows = false;
-            this.dataGridView2.AllowUserToOrderColumns = true;
-            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.ColumnHeadersVisible = false;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colName,
-            this.coluValue});
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.ReadOnly = true;
-            this.dataGridView2.RowHeadersVisible = false;
-            this.dataGridView2.Size = new System.Drawing.Size(302, 173);
-            this.dataGridView2.TabIndex = 0;
-            // 
-            // colName
-            // 
-            this.colName.HeaderText = "colName";
-            this.colName.Name = "colName";
-            this.colName.ReadOnly = true;
-            // 
-            // coluValue
-            // 
-            this.coluValue.HeaderText = "coluValue";
-            this.coluValue.Name = "coluValue";
-            this.coluValue.ReadOnly = true;
-            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(927, 530);
+            this.ClientSize = new System.Drawing.Size(927, 543);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
@@ -399,10 +402,10 @@ namespace MibbleBrowser
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
             this.contextMenuStrip1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResultTab.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

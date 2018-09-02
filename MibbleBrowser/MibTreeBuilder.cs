@@ -22,7 +22,7 @@ namespace MibbleBrowser
         /// <summary>
         /// 
         /// </summary>
-        private MibNode rootNode = new MibNode("Mibs", null);
+        private MibNode rootNode;
 
         /// <summary>
         /// 
@@ -34,9 +34,10 @@ namespace MibbleBrowser
         /// </summary>
         private MibLoader loader = new MibLoader();
 
-        protected internal MibTreeBuilder(TreeView treeView)
+        protected internal MibTreeBuilder(TreeView treeView, string rootElement)
         {
             this.treeView = treeView;
+            rootNode = new MibNode(rootElement ?? "Mibs", null);
         }
 
         /// <summary>
