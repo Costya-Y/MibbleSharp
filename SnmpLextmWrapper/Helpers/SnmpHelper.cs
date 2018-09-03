@@ -15,11 +15,5 @@ namespace SnmpLextmWrapper
                 Oid = variable.Id.ToString(), Type = variable.Data.TypeCode.ToString(), Value = variable.Data.ToString()
             }).ToList();
         }
-
-        public static SnmpTable ConvertOutputToSnmpTable(List<SnmpLine> snmpResponse)
-        {
-
-            return null;
-        }
     }
 }

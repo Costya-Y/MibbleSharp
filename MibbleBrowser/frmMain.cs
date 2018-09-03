@@ -215,8 +215,16 @@ namespace MibbleBrowser
 
                 columnToSnmpObjMap[node.Value.Name] = typeMap;
             }
-
-            var result = _snmpOrchestrator.GetTable(snmpParams, mibNode.Value.ToString(), mibNodeNameToOidMap);
+            var result = new SnmpTable();
+            try
+            {
+                result = _snmpOrchestrator.GetTable(snmpParams, mibNode.Value.ToString(), mibNodeNameToOidMap);
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show(exception.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
             newTab.Controls.Add(dataGrid);
             ResultTab.TabPages.Add(newTab);
 

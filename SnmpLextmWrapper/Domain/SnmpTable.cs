@@ -8,6 +8,10 @@ namespace SnmpLextmWrapper.Domain
     {
         public Dictionary<string, Dictionary<string, string>> SnmpTableDict = new Dictionary<string, Dictionary<string, string>> ();
 
+        public SnmpTable()
+        {
+        }
+
         public SnmpTable(List<SnmpLine> snmpLineList, Dictionary<string, string> columns)
         {
             foreach (var line in snmpLineList)
